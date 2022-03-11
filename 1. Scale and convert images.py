@@ -1,6 +1,5 @@
 from PIL import Image
 import os
-import re
 
 home = os.path.expanduser('~')
 with open(home + '/image_filename.txt') as filename:
